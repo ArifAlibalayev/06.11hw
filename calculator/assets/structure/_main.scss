@@ -1,0 +1,65 @@
+* {
+    background-color: rgb(91, 160, 194);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(60, 60, 60);
+    max-width: 200px;
+    width: 100%;
+    margin: auto;
+    padding: 5px;
+}
+
+.inpdisplay {
+    max-width: 700px;
+    background-color: white;
+    margin: 1%;
+    input {
+        text-align: center;
+        height: 8vh;
+        border: none;
+        outline: none;
+        background-color: rgb(149, 225, 160);
+        pointer-events: none;
+    }
+}
+
+.wrapper {
+    width: 90%;
+    max-width: 600px;
+    min-height: 20vh;
+    background-color: rgb(60, 60, 60);
+}
+
+.btnnums {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 8px;
+    background-color: rgb(60, 60, 60);
+    margin: 10px;
+}
+
+.btn {
+    text-align: center;
+    line-height: 24px;
+    width: 32px;
+    height: 32px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 12px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    p {
+        background-color: white;
+    }
+    sup {
+        background-color: white;
+    }
+    i {
+        background-color: white;
+    }
+}
